@@ -29,7 +29,7 @@ else:
     print(year + " 是闰年")
     run_year[2]='28'
 
-for k,v in run_year:
+for k,v in run_year.items():
     if int(k)==int(month):
         month_day=-int(k)*int(v)
         while(k):
